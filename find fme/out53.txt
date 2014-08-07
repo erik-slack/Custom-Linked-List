@@ -1,0 +1,69 @@
+clear
+
+insert 0 bob
+
+insert 1 joe
+
+insert 0 bob
+
+insert 1 ned
+
+insert 3 zed
+
+print
+
+node 0: bob
+
+node 1: ned
+
+node 2: bob
+
+node 3: zed
+
+node 4: joe
+
+find zed 3
+
+find bob 0
+
+find joe 4
+
+find ned 1
+
+find sue -1
+
+remove 0 bob
+
+print
+
+node 0: ned
+
+node 1: bob
+
+node 2: zed
+
+node 3: joe
+
+find bob 1
+
+remove 1 bob
+
+print
+
+node 0: ned
+
+node 1: zed
+
+node 2: joe
+
+find bob -1
+
+remove 1 zed
+
+remove 1 joe
+
+remove 0 ned
+
+print
+
+find zed -1

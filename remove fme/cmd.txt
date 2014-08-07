@@ -1,0 +1,17 @@
+clear
+insert 0 bob
+insert 1 joe
+insert 0 jim
+insert 1 ned
+insert 3 zed
+print
+remove 0
+print
+remove 3
+print
+remove 1
+print
+remove 1
+print
+remove 0
+print

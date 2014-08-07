@@ -1,0 +1,23 @@
+clear
+insert 0 bob
+insert 1 joe
+insert 0 bob
+insert 1 ned
+insert 3 zed
+print
+find zed
+find bob
+find joe
+find ned
+find sue
+remove 0
+print
+find bob
+remove 1
+print
+find bob
+remove 1
+remove 1
+remove 0
+print
+find zed

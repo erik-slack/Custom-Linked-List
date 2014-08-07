@@ -1,0 +1,11 @@
+clear
+insert 0 bob
+insert 1 joe
+insert 0 jim
+print
+find joe
+remove 0
+remove 1
+remove 0
+print
+find joe

@@ -1,0 +1,11 @@
+clear
+insert 0 bob
+print
+insert 1 joe
+print
+insert 0 jim
+print
+insert 1 ned
+print
+insert 3 zed
+print

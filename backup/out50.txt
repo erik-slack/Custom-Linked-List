@@ -1,0 +1,14 @@
+clear
+insert 0 bob
+insert 1 joe
+insert 0 jim
+print
+node 0: jim
+node 1: bob
+node 2: joe
+find joe 2
+remove 0 jim
+remove 1 joe
+remove 0 bob
+print
+find joe -1

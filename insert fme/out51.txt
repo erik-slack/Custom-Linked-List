@@ -1,0 +1,51 @@
+clear
+
+insert 0 bob
+
+print
+
+node 0: bob
+
+insert 1 joe
+
+print
+
+node 0: bob
+
+node 1: joe
+
+insert 0 jim
+
+print
+
+node 0: jim
+
+node 1: bob
+
+node 2: joe
+
+insert 1 ned
+
+print
+
+node 0: jim
+
+node 1: ned
+
+node 2: bob
+
+node 3: joe
+
+insert 3 zed
+
+print
+
+node 0: jim
+
+node 1: ned
+
+node 2: bob
+
+node 3: zed
+
+node 4: joe
